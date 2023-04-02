@@ -1,7 +1,12 @@
-/*Color palete*/
 * {
     padding: 0;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.0;
+}
+/*Color palete*/
 :root {
     --main-blue: #2196F3;
     --fade-on-white: #757575;
@@ -356,7 +361,7 @@ p {
 /*  PLACEMENT */
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
