@@ -21,128 +21,142 @@
 </head>
 
 <body>
-  <header>
-    <a class="link" href="./">
-      <span class="logo logo-black"><span class="logo-blue">Web</span>Studio</span>
-    </a>
-    <nav>
-      <ul>
-        <li><a class="link navigation-text" href="./">Agencja</a></li>
-        <li><a class="link navigation-text" href="./portfolio.html">Portfolio</a></li>
-        <li><a class="link navigation-text" href="">Kontakt</a></li>
+  <header class="border">
+    <div class="container flex-header">
+      <a class="link" href="./">
+        <span class="logo logo-header"><span class="logo-blue">Web</span>Studio</span>
+      </a>
+      <nav>
+        <ul class="nav-placement-1">
+          <li class="nav-grup-1"><a class="link-nav nav-text-1" href="./">Agencja</a></li>
+          <li class="nav-grup-1"><a class="link-nav nav-text-1" href="./portfolio.html">Portfolio</a></li>
+          <li class="nav-grup-1"><a class="link-nav nav-text-1" href="">Kontakt</a></li>
+        </ul>
+      </nav>
+      <ul class="nav-placement-2">
+        <li class="nav-grup-2">
+          <a class="link-nav nav-text-2" href="mailto:info@devstudio.com"
+            rel="noreferrer noopener">info@devstudio.com</a>
+        </li>
+        <li class="nav-grup-2">
+          <a class="link-nav nav-text-2" href="tel:+48111111111" rel="noreferrer noopener">+48 111 111 111</a>
+        </li>
       </ul>
-    </nav>
-    <ul>
-      <li>
-        <a class="link address-text-top" href="mailto:info@devstudio.com"
-          rel="noreferrer noopener">info@devstudio.com</a>
-      </li>
-      <li>
-        <a class="link address-text-top" href="tel:+48111111111" rel="noreferrer noopener">+48 111 111 111</a>
-      </li>
-    </ul>
+    </div>
   </header>
   <main>
-    <section class="background">
-      <h1 class="center main-head-line">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
-      <button class="order-button order-button-text" type="button">Zamów usługę</button>
+    <section class="section-1 background-grey">
+      <div class="container sec-1-flex">
+        <h1 class="sec-1-headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
+        <button class="order-button" type="button">Zamów usługę</button>
+      </div>
     </section>
-    <section class="column4">
-      <ul>
+    <section class="section">
+      <ul class="container sec-2-flex">
         <li>
-          <p class="text-headline">LOREM IPSUM</p>
-          <p class="text-content fading-text-on-white">
+          <p class="sec-2-head">LOREM IPSUM</p>
+          <p class="sec-2-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p class="text-headline">LOREM IPSUM</p>
-          <p class="text-content fading-text-on-white">
+          <p class="sec-2-head">LOREM IPSUM</p>
+          <p class="sec-2-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p class="text-headline">LOREM IPSUM</p>
-          <p class="text-content fading-text-on-white">
+          <p class="sec-2-head">LOREM IPSUM</p>
+          <p class="sec-2-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
         <li>
-          <p class="text-headline">LOREM IPSUM</p>
-          <p class="text-content fading-text-on-white">
+          <p class="sec-2-head">LOREM IPSUM</p>
+          <p class="sec-2-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
             arcu sem. Sed non sodales dui. Interdum et malesuada
           </p>
         </li>
       </ul>
     </section>
-    <section>
-      <p class="center section-headline">Czym się zajmujemy</p>
-      <ul class="column3">
-        <li>
-          <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
-        </li>
-        <li>
-          <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
-        </li>
-        <li>
-          <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
-        </li>
-      </ul>
+    <section class="sec-3-container-fix">
+      <div class="container">
+        <p class="section-headline">Czym się zajmujemy</p>
+        <ul class="sec-3-flex">
+          <li class="sec-3-grup">
+            <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
+          </li>
+          <li class="sec-3-grup">
+            <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
+          </li>
+          <li class="sec-3-grup">
+            <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
+          </li>
+        </ul>
+      </div>
     </section>
-    <section>
-      <p class="center section-headline">Nasz zespół</p>
-      <ul class="column4">
-        <li>
-          <figure>
-            <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
-            <figcaption class="center">
-              <p class="team-member">Jon Doe</p>
-              <p class="member-position fading-text-on-white">Product designer</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
-            <figcaption class="center">
-              <p class="team-member">Jon Doe</p>
-              <p class="member-position fading-text-on-white">Frontend Developer</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
-            <figcaption class="center">
-              <p class="team-member">Jon Doe</p>
-              <p class="member-position fading-text-on-white">Marketing</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
-            <figcaption class="center">
-              <p class="team-member">Jon Doe</p>
-              <p class="member-position fading-text-on-white">UI Designer</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
+    <section class="section background-light-grey">
+      <div class="container">
+        <p class="section-headline">Nasz zespół</p>
+        <ul class="sec-4-flex">
+          <li class="sec-4-grup">
+            <figure class="sec-4-border">
+              <img src="./images/person1.jpg" alt="brodaty mężczyzna" width="270" height="260" />
+              <figcaption>
+                <p class="team-member">Jon Doe</p>
+                <p class="member-position ">Product designer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="sec-4-grup">
+            <figure class="sec-4-border">
+              <img src="./images/person2.jpg" alt="kobieta" width="270" height="260" />
+              <figcaption>
+                <p class="team-member">Jon Doe</p>
+                <p class="member-position ">Frontend Developer</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="sec-4-grup">
+            <figure class="sec-4-border">
+              <img src="./images/person3.jpg" alt="mężczyzna" width="270" height="260" />
+              <figcaption>
+                <p class="team-member">Jon Doe</p>
+                <p class="member-position ">Marketing</p>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="sec-4-grup">
+            <figure class="sec-4-border">
+              <img src="./images/person4.jpg" alt="brodaty mężczyzna z tatuażem" width="270" height="260" />
+              <figcaption>
+                <p class="team-member">Jon Doe</p>
+                <p class="member-position">UI Designer</p>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
-  <footer class="background">
-    <span class="logo logo-white"><span class="logo-blue">Web</span>Studio</span>
-    <address>
-      <p class="street-address">m. Warszawa, Aleje Jerozolimskie 21</p>
-      <p><a class="address-text-bottom" href="mailto:info@example.com" rel="noreferrer noopener">info@example.com </a>
-      </p>
-      <p><a class="address-text-bottom" href="tel:+48111111111" rel="noreferrer noopener">+48 111 111 111</a></p>
-    </address>
+  <footer class="background-grey footer-sec">
+    <div class="container">
+      <span class="logo logo-white"><span class="logo-blue">Web</span>Studio</span>
+      <address>
+        <p class="botton-address-1 footer-p">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <p class="footer-p"><a class="botton-address-2" href="mailto:info@example.com"
+            rel="noreferrer noopener">info@example.com
+          </a>
+        </p>
+        <p class="footer-p"><a class="botton-address-2" href="tel:+48111111111" rel="noreferrer noopener">+48 111 111
+            111</a>
+        </p>
+      </address>
+    </div>
   </footer>
 </body>
 
