@@ -120,7 +120,7 @@ p {
 
 .flex-header {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 /*  FOOTER */
