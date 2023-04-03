@@ -37,6 +37,12 @@ p {
 }
 /*  HEADER */
 
+.container-header {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 18px 15px;
+}
+
 .border {
     border-bottom: 1px solid var(--hedder-border);
 }
